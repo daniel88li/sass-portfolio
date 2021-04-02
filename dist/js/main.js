@@ -6,6 +6,8 @@ const menuNav = document.querySelector(".menu-nav");
 
 const navItems = document.querySelectorAll(".menu-nav__item");
 
+const scrollTopBtn = document.querySelector(".scrollToTopBtn");
+
 let showMenu = false;
 
 menuBtn.addEventListener("click", () => {
@@ -25,4 +27,11 @@ menuBtn.addEventListener("click", () => {
     menuNav.classList.remove("open");
     navItems.forEach((item) => item.classList.remove("open"));
   }
+});
+
+scrollTopBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
 });

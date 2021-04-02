@@ -361,6 +361,27 @@
   color: #fff;
 }
 
+.projects .scrollToTopBtn {
+  position: fixed;
+  right: 0;
+  bottom: 25vh;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border: 1px solid #ff652f;
+  background: #ff652f;
+  cursor: pointer;
+}
+
 .projects .icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -447,6 +468,9 @@
   }
   .projects .text-secondary {
     font-size: 3rem;
+  }
+  .projects .scrollToTopBtn {
+    display: none;
   }
   .contact__list {
     -ms-grid-columns: 1fr 1fr;

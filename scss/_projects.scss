@@ -87,6 +87,21 @@
     }
   }
 
+  .scrollToTopBtn {
+    position: fixed;
+    right: 0;
+    bottom: 25vh;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid $secondary-colour;
+    background: $secondary-colour;
+    cursor: pointer;
+  }
+
   .icons {
     display: flex;
     flex-flow: column;
