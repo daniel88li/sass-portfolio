@@ -2,6 +2,8 @@
 
 - Coded in VSCode with Live Server and Live Sass Compiler
 
+Live Github page [here](https://daniel88li.github.io/sass-portfolio/dist/)
+
 ### Built with
 
 - HTML5
